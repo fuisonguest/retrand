@@ -23,7 +23,7 @@ dotenv.config();
 const app = express();
 
 // ✅ Proper CORS Configuration
-app.use(cors({ origin: "https://retrend-sooty.vercel.app", credentials: true }));
+app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 
 app.use(bodyParser.json());
 
